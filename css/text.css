@@ -1,0 +1,119 @@
+html{overflow-x:hidden; -webkit-text-size-adjust:none;}
+body {font-size: 0.16rem!important;font-family: 'PingFang SC','Microsoft YaHei','Lantinghei SC','Helvetica Neue',Helvetica,Arial,"sans-serif";color:black; line-height:1; }
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+	position:relative;
+}
+
+h2 {
+	text-align: center;
+}
+
+.content p {
+	line-height: 0.9rem;
+	text-indent: 0.3rem;
+}
+.content .pic{
+	width:4.6rem;
+}
+.content h3 {
+	margin-top: 0.5rem;
+	text-indent: 0.5rem;
+}
+
+.manage {
+	width: 100%;
+	height: 5rem;
+	position: relative;
+}
+
+.content .img {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.9rem;
+}
+
+.font-weight {
+	font-weight: bold;
+}
+
+.color-blue {
+	color: #5B9BD5;
+}
+
+.color-red {
+	color: red;
+}
+
+.mTop {
+	margin-top: 0.45rem;
+}
+
+.mTop8 {
+	margin-top: 1rem;
+}
+.ptop{
+	padding-top:2rem;
+}
+.time {
+	display: none;
+	text-align: center;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+.time span {
+	margin: 0 0.1rem;
+	cursor: pointer;
+}
+
+.yes {
+	width:0.5rem;
+	position: relative;
+	bottom: -6px;
+}
+
+.submit {
+	display: none;
+	padding:0.1rem 0.3rem;
+	background-color: #5B9BD5;
+	color: white;
+	border-radius: 5px;
+	margin:0 0.2rem;
+}
+.pic{
+	position:absolute;
+}
+@media only screen and (min-width: 1200px) {
+	.content{
+		width:45%;
+	}
+	.content h3 {
+		margin-top: 0.3rem;
+		text-indent: 0.3rem;
+	}	
+	.content p {
+		line-height: 0.5rem;
+	}	
+	.mTop {
+		margin-top: 0.3rem;
+	}
+	.content .pic{
+		width:2.5rem;
+	}
+	.ptop {
+	    padding-top:1.5rem;
+	}
+	.content .img {
+		width: 2rem;
+		height: 2rem;		
+	}
+	.manage{
+		height:3rem;
+	}
+	
+}
